@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos - Barberia Alejandro</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+
+            <h1> <img src="imagenes/logo.png" id="iconop"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="Productos.html"> Productos </a></li>
+                    <li><a href="contacto.html"> Contactos </a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+
+            <main>
+            <ul class="Productos">
+                <li>
+                <h2>Cabello</h2>
+                <img src="imagenes/cabello.jpg">
+                <p class="producto-descripcion">Con tijera o maquina, a gusto del cliente</p>
+                <p class="producto-precio">$ 10.00</p>
+                </li>
+
+
+                <li> 
+                <h2>Barba</h2>
+                <img src="imagenes/barba.jpg">
+                <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                <p class="producto-precio">$ 08.00</p> 
+                </li>
+                
+                
+                <li> 
+                <h2>Cabello + Barba</h2>
+                <img src="imagenes/cabello+barba.jpg">
+                <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                <p class="producto-precio">$ 15.00</p>
+                </li>
+            
+            </ul>
+            </main>
+
+            
+            <footer>
+                <div style="text-align: center;">
+                    <img src="imagenes/logo-blanco.png" alt="logo de la barberia Alejandro">
+                </div>
+                <p class="Copyright">&copy; Copyright Barberia Alejandro - 2020</p>
+            </footer>
+            
+            <script>
+                // Obtiene el elemento del icono
+                const icono = document.getElementById('iconop');
+            
+                // Agrega un event listener para el clic en el icono
+                icono.addEventListener('click', function() {
+                    // Redirecciona a la página de inicio
+                    window.location.href = 'index.html';
+                });
+            </script>
+        
+
+    </body>
+</html>
